@@ -6,5 +6,7 @@ import com.pojo.Address;
 
 @Component
 public interface AddressDao {
+	
 	public Address selectAddress(Integer id);
+	
 }

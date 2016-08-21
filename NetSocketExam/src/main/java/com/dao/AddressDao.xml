@@ -6,4 +6,5 @@
 	<select id="selectAddress" parameterType="int">
 		select address_id, address from address where address_id = #{address_id} 
 	</select>
+	
 </mapper>

@@ -12,10 +12,10 @@
 	function exit(){
 		if (confirm("确认要退出系统吗？")) {
 			var request = new XMLHttpRequest();
-			request.open("GET", "index.jsp");
+			request.open("GET", "exit");
 			request.send();	
 			location.reload();
-			return false;
+			return true;
 		}else{
 			
 			return false;
@@ -63,14 +63,7 @@
 				<%
 					}
 				%>
-<!-- 				<tr align="center">
-					<td colspan="7">
-						<a href="firstPage">第一页</a>&nbsp;&nbsp; 
-						<a href="lastPage">上一页</a>&nbsp;&nbsp;
-						<a href="nextPage">下一页</a>&nbsp;&nbsp;
-						<a href="endPage">尾页</a>&nbsp;&nbsp;
-					</td>
-				</tr> -->
+
 
 			</table>
 

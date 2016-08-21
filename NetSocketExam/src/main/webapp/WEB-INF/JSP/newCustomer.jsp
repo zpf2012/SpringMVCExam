@@ -1,3 +1,4 @@
+<%@page import="java.util.List"%>
 <%@page import="com.pojo.Customer"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -13,6 +14,7 @@
 </head>
 <body>
 	<center>
+		<div style="padding-top: 200px;">
 		<form action="insertCustomer" method="GET" name="customer">
 			<table border="1">
 
@@ -39,6 +41,7 @@
 			</table>
 		</form>
 
+	</div>
 	</center>
 </body>
 </html>

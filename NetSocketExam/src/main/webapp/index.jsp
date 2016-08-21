@@ -16,7 +16,9 @@
 <link rel="stylesheet" href="<%=request.getContextPath()%>/CSS/login.css"></link>
 <body>
 <script type="text/javascript" charset="UTF-8" src="<%=request.getContextPath()%>/JS/style.js"></script>
+<script type="text/javascript">
 
+</script>
 <div align="center"  >
 	<div align="center" id ="center">
 		<%session.setAttribute("customer", "customer"); %>
@@ -39,7 +41,7 @@
 				<tr align="center">
 					<td colspan="2"> 
 					<br><br>
-						<input type="submit" class="button"  value="登录" onclick="return logincheck()"/>
+						<input type="submit" class="button"  value="登录" onclick="return logincheck()" />
 					</td>
 				</tr>
 			</table>

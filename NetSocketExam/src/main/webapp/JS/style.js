@@ -1,7 +1,6 @@
 /**
  * 
  */
-
 function logincheck(){
 	var username = document.form.username.value;
 	var password = document.form.password.value;
