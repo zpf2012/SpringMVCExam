@@ -17,14 +17,14 @@
 <body>
 <script type="text/javascript" charset="UTF-8" src="<%=request.getContextPath()%>/JS/style.js"></script>
 
-<div align="center" >
-	<div id ="center" align="center">
+<div align="center"  >
+	<div align="center" id ="center">
 		<%session.setAttribute("customer", "customer"); %>
 		<div id="header">10892  张鹏飞</div><br><br>
-		<div id="login" align="center">
-		<div style="heitht: 15px; width: auto; background-color: #ffffff; margin-top: 0px; top: 0px;">电影租赁管理系统</div>
-			<br><br>
-			<div >
+		<div id="login" style="text-align: center;">
+		<div style="background-color: #ffffff; width :300px;position:relative;"><h3>电影租赁管理系统</h3></div>
+
+			<div align="center">
 			
 			<form action="login" method="post" name="form">
 			<table>
@@ -39,7 +39,7 @@
 				<tr align="center">
 					<td colspan="2"> 
 					<br><br>
-						<input type="submit" class="button"  value="登录" onclick="return logincheck()"/>&nbsp;&nbsp;&nbsp;
+						<input type="submit" class="button"  value="登录" onclick="return logincheck()"/>
 					</td>
 				</tr>
 			</table>
