@@ -15,7 +15,7 @@
 <body>
 	<center>
 		<div style="padding-top: 200px;">
-		<form action="insertCustomer" method="GET" name="customer">
+		<form action="insertCustomer" method="GET" name="customer" id="customer">
 			<table border="1">
 
 				<tr>
@@ -32,7 +32,7 @@
 				</tr>
 				<tr>
 					<td>address_id</td>
-					<td><input type="text" name="address_id"></td>
+					<td><input type="text" name="address_id" id="address_id"></td>
 				</tr>
 				<tr align="center">
 					<td colspan="2"><input type="submit" value="提交" onclick="return checkInput()"/>&nbsp;&nbsp;

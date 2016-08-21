@@ -32,12 +32,9 @@ function sure(order_id) {
 
 
 function checkInput(){
-	if(document.getElementsByName("store_id")<=0 || document.getElementsByName("store_id")>2){
-		alert("Store_id  should be 1 or 2!!!");
-		return false;
-	}
-	if(document.getElementsByName("addredd_id")<0 || document.getElementsByName("addredd_id")>605){
-		alert("addredd_id is not exist!!!");
+	alert("123");
+	if(document.customer.address_id.value < 0 || document.customer.address_id.value > 605 ){
+		alert("请输入0-605之间的任意数字");
 		return false;
 	}
 	return true;
