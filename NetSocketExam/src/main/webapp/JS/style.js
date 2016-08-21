@@ -32,7 +32,6 @@ function sure(order_id) {
 
 
 function checkInput(){
-	alert("123");
 	if(document.customer.address_id.value < 0 || document.customer.address_id.value > 605 ){
 		alert("请输入0-605之间的任意数字");
 		return false;
