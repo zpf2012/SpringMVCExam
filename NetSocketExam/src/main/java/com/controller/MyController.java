@@ -24,11 +24,8 @@ import com.pojo.Customer;
 @Controller
 public class MyController {
 	
-	ApplicationContext context = new ClassPathXmlApplicationContext("conf/ApplicationContext.xml");
-	CustomerDao cDao = context.getBean(CustomerDao.class);
-	
-//	@Autowired
-//	private CustomerDao cDao;
+	@Autowired
+	private CustomerDao cDao;
 	
 	private String url;
 	@RequestMapping("/login")
